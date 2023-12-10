@@ -117,3 +117,52 @@
 {
     margin-top: 20px;
 }
+
+@media screen and (max-width: 767px)
+{
+    .container
+    {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+      margin: 20% 0 20% 0;
+    }
+  
+    .top-bar
+    {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+  
+    .cityInput
+    {
+      flex: 1;
+      width: calc(100% - 60px);
+      margin-right: 10px;
+    }
+  
+    .search-icon
+    {
+      width: 20%;
+      cursor: pointer;
+    }
+  
+    .weather-image,
+    .weather-temp,
+    .weather-location,
+    .data-container,
+    .element
+    {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .element 
+    {
+      margin-bottom: 10px;
+    }
+  }
+  
+}
+  
